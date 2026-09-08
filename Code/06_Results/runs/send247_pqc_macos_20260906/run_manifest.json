@@ -1,0 +1,36 @@
+{
+  "run_id": "send247_pqc_macos_20260906",
+  "started_at": "2026-09-06T00:40:16.778901+00:00",
+  "completed_at": "2026-09-06T00:40:21.232213+00:00",
+  "scope": "AI/SOC with local PQC benchmark",
+  "inputs": {
+    "01_OMNeT_Simulation/UAV_SOC_Project/simulations/uav_traffic.csv": "819966a8705aa359936ba02e69c304f65c61e805b32c9007d728032e61cacbc2",
+    "02_AI_Threat_Detection/UAV_OMNeT_AI_SOC_PQC_Colab_FIXED.ipynb": "cad4dc330fc29b73d3d47f5281e87680de9c2300c16e5996ef5be7484fbd85af",
+    "tools/run_analysis.py": "60a7d144e8a00fe595685280589d6e7dcb059e633016cde4c859228d0ce67be1",
+    "01_OMNeT_Simulation/UAV_SOC_Project/src/UAVNode.cc": "0e327b8c714e6d725cb0118b1fc4964d977ea7316f663e6b7c9d06e8e0c80cf6",
+    "01_OMNeT_Simulation/UAV_SOC_Project/src/UAVNetwork.ned": "d1347d217db2222fdade58cc3fb32a214f8bbd606d858d33f715f89ab6644eb5",
+    "01_OMNeT_Simulation/UAV_SOC_Project/simulations/omnetpp.ini": "62e550df4b68c5f4ea2dbfb714757b9019f04bd9a8b764046e9ce29658825c5a",
+    "requirements-analysis.txt": "330a588d8150a38d79a51a736cf8550145e3403841c41928dac274ac8aa44a15"
+  },
+  "outputs": {
+    "classification_report.txt": "53fce31b50962162b20c8d2861b50a8635366be37daeb31b2b3f4b2e12467e06",
+    "confusion_matrix_isolation_forest.png": "855bb82d943dd1d3f62be7760a791f8f28ecd70d17de883bedd4eb7f0603800e",
+    "confusion_matrix_random_forest.png": "4781b684f74586a2687635c25b715537870598f49e708d0728859382c3ef8aa6",
+    "environment.json": "31ba1753097466c7c903e7a5bd23ebfaf05dac32f5e812c150d1b3f86769744c",
+    "executed_notebook.ipynb": "acadc2d9cbeeb6dea6121ef2732994bb1eab11a2df2833fd34b5255cfda75bd7",
+    "framework_summary.json": "aa9d5123dbd7cfd7c9e27f6590f6ec629a620fa4335e20ab2aa1e1f97dca3ca0",
+    "mlkem_latency.png": "511690d088ee4112f008fcb49fe014af3b53d7a5a0e9055c49dbab7791214ff1",
+    "model_comparison.csv": "6b71829512af038eed5fc75c99961a1296ccac56b4bed2e24f70f28b13713327",
+    "omnet_uav_ai_dataset.csv": "3fe8c7ff2321741990df1771ea57b645a5100e1e1db499305c58fc1a15dd1666",
+    "pqc_benchmark_results.csv": "803bd1b7f6393adb07d272ac44a299d812c2238616cb0461f7187bf5230b42e9",
+    "pqc_performance.png": "d40df002cb076a4cfc2accade4310de2782356f67889b7ed2a9bb127f6b1127c",
+    "pqc_performance_summary.csv": "bc7829b1fa9acbd630a2e2b9f1189604f033d1da7b1dd612a7a29d1f71885543",
+    "roc_curve_comparison.png": "0195c231ef2cf215dfe60004a9edc5eb7aad7c3d4ac3ebd32412dc77268d7e60",
+    "soc_alerts.csv": "8bc294489cfc1378ebfa436abff1237501e0b8619e72bb1135b6201f25236670",
+    "soc_alerts.log": "58439d32eea4196fa861cf0c48cc36b150b6e1b714cbcaa01b8a7449fbb734c4",
+    "split_membership.csv": "c49987db1dee600cd485277b75a3e755caf8e7269fc95f089019bf616b94a78f",
+    "uav_soc_events.json": "be4b1ccb948a39f7f563f4f19e78e9afe5b59ca052180f7122a3138fb8bc1630",
+    "uav_soc_pqc_wazuh_output.csv": "a77230fc403f377a44fa4e12e79a89581a13dd04e8ff0388d9c938b4d5af823d",
+    "uav_test_predictions.csv": "dcf6682d452996af631d9654d6e45504c200428dff4d6b21ffca57802455f249"
+  }
+}

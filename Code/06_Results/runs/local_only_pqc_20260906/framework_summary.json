@@ -1,0 +1,59 @@
+{
+  "evaluation_scope": "Controlled OMNeT++ simulation results",
+  "schema_version": "2.0",
+  "run_id": "local_only_pqc_20260906",
+  "source_sha256": "819966a8705aa359936ba02e69c304f65c61e805b32c9007d728032e61cacbc2",
+  "feature_origin": "Simulator-generated values; not measured radio-network performance",
+  "random_state": 42,
+  "real_world_performance_claim": false,
+  "source_csv": "uav_traffic.csv",
+  "raw_csv_rows": 494,
+  "modelled_event": "Send",
+  "real_send_rows": 247,
+  "real_normal_rows": 220,
+  "real_attack_rows": 27,
+  "synthetic_attack_rows_added": 0,
+  "real_model_features": [
+    "packet_size",
+    "avg_latency_ms",
+    "packet_loss_pct",
+    "throughput"
+  ],
+  "uav_id_usage": "Identification and export only; not an ML feature",
+  "dataset_rows": 247,
+  "training_rows": 172,
+  "test_rows": 75,
+  "training_attack_proportion": 0.11046511627906977,
+  "isolation_forest_contamination": 0.11046511627906977,
+  "soc_alerts_generated": 13,
+  "soc_scope": "Possible communication degradation/jamming-like behaviour and generic UAV network anomalies based on controlled OMNeT++ latency, packet-loss, packet-size and throughput measurements",
+  "isolation_forest": {
+    "accuracy": 0.9333333333333333,
+    "precision": 0.6153846153846154,
+    "recall": 1.0,
+    "f1_score": 0.7619047619047619,
+    "roc_auc": 1.0
+  },
+  "random_forest": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  },
+  "pqc": {
+    "status": "completed",
+    "scope": "Representative payload cryptographic proof-of-concept",
+    "individual_events_encrypted": false,
+    "representative_demo_verified": true,
+    "algorithm": "ML-KEM-768",
+    "symmetric_cipher": "AES-256-GCM",
+    "iterations": 200,
+    "success_rate_pct": 100.0,
+    "mean_keygen_ms": 0.01681286,
+    "mean_encapsulation_ms": 0.017293545,
+    "mean_decapsulation_ms": 0.02055515,
+    "mean_aes_encrypt_ms": 0.00165497,
+    "mean_aes_decrypt_ms": 0.001208425
+  }
+}

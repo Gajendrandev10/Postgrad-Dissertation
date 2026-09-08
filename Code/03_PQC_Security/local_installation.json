@@ -1,0 +1,13 @@
+{
+  "platform": "macOS-15.7.7-arm64-arm-64bit-Mach-O",
+  "build_options": [
+    "BUILD_SHARED_LIBS=ON",
+    "OQS_USE_OPENSSL=OFF",
+    "OQS_MINIMAL_BUILD=KEM_ml_kem_768",
+    "CMAKE_BUILD_TYPE=Release"
+  ],
+  "install_prefix": ".runtime/oqs-install",
+  "liboqs_commit": "8c7f6592e097736c414b08eea12817b29399734f",
+  "liboqs-python_commit": "0f9e50bea240792b802a6e56f5e4d33a9ec0a6b0",
+  "library_sha256": "32d3b83ce596b65c6cb2fb654a4da45b8d5a69bfdd84e2265a643910c56b2351"
+}

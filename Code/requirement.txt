@@ -1,0 +1,5 @@
+# Analysis environment: reuse the existing pinned project snapshot.
+-r requirements_analysis.txt
+# External prerequisites: OMNeT++ and a compatible C++ toolchain.
+# Optional PQC: native liboqs plus liboqs-python (see local_installation.json).
+# Document tooling has separate dependencies in ../Documentation/requirement.txt.

@@ -1,0 +1,32 @@
+{
+  "run_id": "send247_20260906",
+  "started_at": "2026-09-06T00:07:52.951677+00:00",
+  "completed_at": "2026-09-06T00:08:29.917582+00:00",
+  "scope": "AI/SOC analysis of existing simulation snapshot; PQC not run",
+  "inputs": {
+    "01_OMNeT_Simulation/UAV_SOC_Project/simulations/uav_traffic.csv": "819966a8705aa359936ba02e69c304f65c61e805b32c9007d728032e61cacbc2",
+    "02_AI_Threat_Detection/UAV_OMNeT_AI_SOC_PQC_Colab_FIXED.ipynb": "5e716b4f43c64a5a552b2824d2f6637ce06ceeab2df9a4574109718bfa6b37cd",
+    "tools/run_analysis.py": "e68575df3f431def20bd65d5b595707eb0882ac66f29e9a5a9e9befa9e5da869",
+    "01_OMNeT_Simulation/UAV_SOC_Project/src/UAVNode.cc": "0e327b8c714e6d725cb0118b1fc4964d977ea7316f663e6b7c9d06e8e0c80cf6",
+    "01_OMNeT_Simulation/UAV_SOC_Project/src/UAVNetwork.ned": "d1347d217db2222fdade58cc3fb32a214f8bbd606d858d33f715f89ab6644eb5",
+    "01_OMNeT_Simulation/UAV_SOC_Project/simulations/omnetpp.ini": "62e550df4b68c5f4ea2dbfb714757b9019f04bd9a8b764046e9ce29658825c5a",
+    "requirements-analysis.txt": "330a588d8150a38d79a51a736cf8550145e3403841c41928dac274ac8aa44a15"
+  },
+  "outputs": {
+    "classification_report.txt": "53fce31b50962162b20c8d2861b50a8635366be37daeb31b2b3f4b2e12467e06",
+    "confusion_matrix_isolation_forest.png": "855bb82d943dd1d3f62be7760a791f8f28ecd70d17de883bedd4eb7f0603800e",
+    "confusion_matrix_random_forest.png": "4781b684f74586a2687635c25b715537870598f49e708d0728859382c3ef8aa6",
+    "environment.json": "8d26f64a605c2ede3562e45d282f71a2a8ffd62a89d2148eb32d0a2c588f77ba",
+    "executed_notebook.ipynb": "7a073a8df36673a7118d5b0b85a9b1bd3b6f55e0066aa3ea9f5db75de60f8d37",
+    "framework_summary.json": "1b64860927444b1d200c3d299d6c277a5bade6c507a45bb6335e713c1403e7d9",
+    "model_comparison.csv": "6b71829512af038eed5fc75c99961a1296ccac56b4bed2e24f70f28b13713327",
+    "omnet_uav_ai_dataset.csv": "3fe8c7ff2321741990df1771ea57b645a5100e1e1db499305c58fc1a15dd1666",
+    "roc_curve_comparison.png": "0195c231ef2cf215dfe60004a9edc5eb7aad7c3d4ac3ebd32412dc77268d7e60",
+    "soc_alerts.csv": "e143ef806502b09e97cd09f2c2039e6516b1fbb4226b15ffb1a89ce6940c2247",
+    "soc_alerts.log": "61a8f4cf52503f52422930dd200d905a87744fbb3b131b161c29113e979c1a34",
+    "split_membership.csv": "c49987db1dee600cd485277b75a3e755caf8e7269fc95f089019bf616b94a78f",
+    "uav_soc_events.json": "4f6ab2420563e3fdd54a8e1963d26cb9a16d538089078b6ef3021324d20db1ff",
+    "uav_soc_pqc_wazuh_output.csv": "ae22e6f38026394aa410b28b2aed68596fac24c898b5ca40413528ff387193dd",
+    "uav_test_predictions.csv": "dcf6682d452996af631d9654d6e45504c200428dff4d6b21ffca57802455f249"
+  }
+}

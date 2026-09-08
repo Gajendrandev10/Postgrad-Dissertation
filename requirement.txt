@@ -1,0 +1,4 @@
+# Main analysis dependencies; install from the repository root.
+-r Code/requirement.txt
+# Optional local dissertation tools use Documentation/requirement.txt,
+# which is excluded from this code repository.

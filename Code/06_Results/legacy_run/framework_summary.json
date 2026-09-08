@@ -1,0 +1,30 @@
+{
+  "source_csv": "uav_traffic (1).csv",
+  "dataset_rows": 795,
+  "test_rows": 239,
+  "soc_alerts_generated": 137,
+  "isolation_forest": {
+    "accuracy": 0.803347280334728,
+    "precision": 0.656934306569343,
+    "recall": 1.0,
+    "f1_score": 0.7929515418502202,
+    "roc_auc": 0.9967188665175243
+  },
+  "random_forest": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "roc_auc": 1.0
+  },
+  "pqc": {
+    "algorithm": "ML-KEM-768",
+    "iterations": 200,
+    "success_rate_pct": 100.0,
+    "mean_keygen_ms": 0.024190765,
+    "mean_encapsulation_ms": 0.025310575000000002,
+    "mean_decapsulation_ms": 0.025478294999999998,
+    "mean_aes_encrypt_ms": 0.0030399750000000003,
+    "mean_aes_decrypt_ms": 0.002277105
+  }
+}

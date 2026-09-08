@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+~$*.docx
+Code/01_OMNeT_Simulation/UAV_SOC_Project/out/
+Code/01_OMNeT_Simulation/UAV_SOC_Project/UAV_SOC_Project
+Code/01_OMNeT_Simulation/UAV_SOC_Project/UAV_SOC_Project_dbg
+
+.venv/
+.runtime/
+
+# Project documentation
+/Documentation/

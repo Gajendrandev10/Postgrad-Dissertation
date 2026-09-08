@@ -1,0 +1,20 @@
+Isolation Forest Report
+              precision    recall  f1-score   support
+
+           0     1.0000    0.6846    0.8127       149
+           1     0.6569    1.0000    0.7930        90
+
+    accuracy                         0.8033       239
+   macro avg     0.8285    0.8423    0.8029       239
+weighted avg     0.8708    0.8033    0.8053       239
+
+
+Random Forest Report
+              precision    recall  f1-score   support
+
+           0     1.0000    1.0000    1.0000       149
+           1     1.0000    1.0000    1.0000        90
+
+    accuracy                         1.0000       239
+   macro avg     1.0000    1.0000    1.0000       239
+weighted avg     1.0000    1.0000    1.0000       239
